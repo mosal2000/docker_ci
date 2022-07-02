@@ -2,6 +2,7 @@ sudo: required
 services:
   - docker
 
-  script:
-    - docker built -t mosal2000/node .
-    - docker images mosal2000/node 
+script:
+  - docker built -t mosal2000/node .
+  - docker images mosal2000/node 
+
