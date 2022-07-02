@@ -3,5 +3,5 @@ services:
   - docker
 
   script:
-    - docker built -t mannydesigns/node .
-    - docker images mannydesigns/node 
+    - docker built -t mosal2000/node .
+    - docker images mosal2000/node 
