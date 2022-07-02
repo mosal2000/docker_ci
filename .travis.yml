@@ -3,6 +3,6 @@ services:
   - docker
 
 script:
-  - docker built -t mosal2000/node .
+  - docker build -t mosal2000/node .
   - docker images mosal2000/node 
 
